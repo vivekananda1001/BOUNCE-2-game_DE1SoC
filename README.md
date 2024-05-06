@@ -12,7 +12,9 @@ The player can control the movement of the ball using the switches on the board.
 Scoring:
 The player's score increases continuously as long as the ball stays alive. The longer the ball survives without colliding with obstacles, the higher the score.
 
-# Language used : C
+# Language used :
+C
+
 # Technologies used: 
 De1SoC Board(FPGA)
 
@@ -46,13 +48,19 @@ alive without colliding with obstacles.
 with the frequency of brick throws increasing over time to increase the game's difficulty.
 
 # How to run:
-1.Go to https://cpulator.01xz.net
-2.Choose "Nios II" Architecture and "Nios II De1-SoC" System and click "Go"
-3.Or alternatively, you can directly go to https://cpulator.01xz.net/?sys=nios-de1soc
-4.On top of the Editor, change the language from "Nios II" to "C"
-5.Copy the code from the file "game.c" in this repository, delete everything from the editor and paste the text from the file.
-6.Now click "Compile and Load". When it has been compiled, click "Continue"
-7.Read further instructions from the game to play!
+1. Go to https://cpulator.01xz.net
+
+2. Choose "Nios II" Architecture and "Nios II De1-SoC" System and click "Go"
+
+3. Or alternatively, you can directly go to https://cpulator.01xz.net/?sys=nios-de1soc
+
+4. On top of the Editor, change the language from "Nios II" to "C"
+
+5. Copy the code from the file "game.c" in this repository, delete everything from the editor and paste the text from the file.
+
+6. Now click "Compile and Load". When it has been compiled, click "Continue"
+
+7. Read further instructions from the game to play!
 
 # Challenges
 1. This game is still not 100% complete. The main reason you see those triangular "Thorns" on the sides of the board too, but the ball never goes there, and the reason I named this game as "Bounce 2" is that I wanted it to make a game where the ball jumps from one block to another and you have to keep jumping from one to another to survive. If you are in air, you fall on the thorns below, and if you are on a block you can "ride" it until it crashes into the thorns on the sides. This would have been much more addictive and entertaining to the player.
